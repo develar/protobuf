@@ -23,7 +23,7 @@ If you are using Maven, use the following:
 <dependency>
   <groupId>com.google.protobuf</groupId>
   <artifactId>protobuf-java</artifactId>
-  <version>3.24.4</version>
+  <version>3.24.4-jb.2</version>
 </dependency>
 ```
 
@@ -37,7 +37,7 @@ protobuf-java-util package:
 <dependency>
   <groupId>com.google.protobuf</groupId>
   <artifactId>protobuf-java-util</artifactId>
-  <version>3.24.4</version>
+  <version>3.24.4-jb.2</version>
 </dependency>
 ```
 
@@ -52,7 +52,7 @@ number of protoc that you are using.
 
 For Android users, it's recommended to use protobuf Java Lite runtime because
 of its smaller code size. Java Lite runtime also works better with Proguard
-because it doesn't rely on Java reflection and is optimized to allow as much
+because it doesn't rely on Java reflection and is optimized to allow as much[README.md](..%2FREADME.md)
 code stripping as possible. You can following these [instructions to use Java
 Lite runtime](lite.md).
 
